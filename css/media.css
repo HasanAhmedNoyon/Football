@@ -2,15 +2,21 @@
 /*xsm (320-480)*/ 
 
 @media only screen and (min-width: 320px) and (max-width: 480px)  {
-.navbar-nav {
+    .navbar-nav {
         padding: 10px 0px;
     }
+    
     .nav-item {
         text-align: center;
         background-color: transparent;
         padding: 2px 0px;
     }
-
+    .login-buttton{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 100px;
+    }
     
     
     
@@ -21,7 +27,22 @@
 /*sm (481-767)*/ 
     
 @media only screen and (min-width: 481px) and (max-width: 767px)  {
+    .navbar-nav {
+        padding: 10px 0px;
+    }
     
+    .nav-item {
+        text-align: center;
+        background-color: transparent;
+        padding: 2px 0px;
+    }
+    .login-buttton{
+        position: absolute;
+        top: 2%;
+        right:  10%;
+        width: 160px;        
+    }
+
     
 }
     
@@ -29,7 +50,21 @@
 /*Medium Devices*/ 
 /*md (768-991)*/ 
 @media only screen and (min-width: 768px) and (max-width: 991px)  {
-
+    .navbar-nav {
+        padding: 10px 0px;
+    }
+    
+    .nav-item {
+        text-align: center;
+        background-color: transparent;
+        padding: 2px 0px;
+    }
+    .login-buttton{
+        position: absolute;
+        top: 2%;
+        right:  10%;
+        width: 160px;        
+    }
     
 }
     

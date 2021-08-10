@@ -1,19 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 100vh;
+    background: #2D25A0;
+}
+.navbar{
+    width: 100%;
+}
+
 .navbar-light .navbar-nav .nav-item {
-    padding: 0px 15px;
+    list-style: none;
+    margin-right: 36px;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF !important;
+    position: relative;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #fff;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    padding: 0px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    color: black !important;
-    position: relative;
 }
 
 .navbar-light .navbar-nav .nav-link::before {
@@ -23,11 +42,50 @@
     left: 0;
     width: 0%;
     height: 2px;
-    background-color: #afafaf;
+    background-color: #ffffff;
     transition: .5s all ease-in-out;
 }
 
 .navbar-light .navbar-nav .nav-link:hover::before {
-    width: 100%
+    width: 110%
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../img/hamburger.PNG') !important;
+
 }
 
+.navbar-toggler:focus  {
+    box-shadow: none !important;
+}
+
+.login-buttton{
+    padding: 10px 40px;
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.login-buttton i{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 8px;
+}
+
+.login-buttton a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.login-buttton a:hover{
+    color: #fff;
+}
